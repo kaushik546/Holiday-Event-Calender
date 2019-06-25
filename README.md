@@ -5,19 +5,6 @@ This is an event calender where we are adding some events on holidays. So we can
 
 
 ## How to use this calender:
-At First we need to add the dependencies of Compact Calender View on project build.gradle(Module.app):
-
-```android
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    compile 'com.github.sundeepk:compact-calendar-view:3.0.0'
-}
-```
 
 There are some properties on CompactCalendarView. They are:
 
